@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/pub_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorbg_pub">
+        <LinearLayout
+            android:id="@+id/pub_back"
+            android:onClick="click"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pub_back"/>
+            <TextView
+                android:text="返回"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的帖子"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/pub_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pub_title">
+    </ListView>
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="hot">最热</string>
+    <string name="title">suib</string>
+    <string name="app_name">百思不得姐</string>
+    <string name="pub_hint">这里添加文字，请勿发布色情、政治等违反国家的内容，违者封号处理</string>
+    <string name="attention_tv1">快快登录吧，关注百思最in牛人</string>
+    <string name="attention_tv2">好友动态让你过把瘾儿，噢耶！</string>
+    <string name="login_btn">登录</string>
+    <string name="regist_btn">注册</string>
+    <string name="sub_btn">+订阅</string>
+    <string name="subtext1">万订阅 | 总帖数</string>
+    <string name="seach_att">搜索</string>
+    <string name="onloding">正在加载……</string>
+    <string name="mine">我的</string>
+    <string name="attention">关注</string>
+    <string name="cnew">最新</string>
+    <string name="essence">精华</string>
+    <string name="sub">订阅</string>
+    <string name="mine_first">登录/注册</string>
+    <string name="mine1_sec">我的身份</string>
+    <string name="mine2_sec">本地视频</string>
+    <string name="tv1_mine_third">#百思红人#</string>
+    <string name="tv2_mine_third">#自拍#</string>
+    <string name="head">推荐标签</string>
+</resources>
